@@ -1,0 +1,17 @@
+[project]
+name = "hello-api"
+version = "0.1.0"
+description = "My first FastAPI project using uv"
+readme = "README.md"
+authors = [
+    { name = "Jawad Haider", email = "jawadstudio35@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.0",
+    "uvicorn>=0.54.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.8,<0.13.0"]
+build-backend = "uv_build"
