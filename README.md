@@ -92,4 +92,3 @@ uv run uvicorn hello_api.main:app --reload --port 8000
 
 Jawad Haider
 
-This project is part of my Python and backend development learning journey.
